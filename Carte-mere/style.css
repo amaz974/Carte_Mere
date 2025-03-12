@@ -1,0 +1,48 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: #333333; /* Texte sombre pour contraste */
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: #78605a; /* Rouge/orangé vif */
+  font-size: 36px;
+  font-weight: bold;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6); /* Ombre plus marquée */
+}
+
+#chart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Prend toute la hauteur de la fenêtre */
+  background-color: #fff8e1; /* Fond clair pour le graphique */
+}
+
+circle {
+  stroke: #1d1d1d; /* Bordure sombre pour les cercles */
+  stroke-width: 3px; /* Largeur des bordures */
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5)); /* Ombre portée */
+}
+
+text {
+  font-family: 'Comic Sans MS', cursive;
+  font-size: 14px;
+  fill: #2e2e2e; /* Texte gris foncé */
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.8); /* Ombre légère sur texte */
+}
+
+circle {
+  stroke: #1d1d1d; /* Bordure sombre pour les cercles */
+  stroke-width: 3px; /* Largeur des bordures */
+  transition: fill 0.3s ease-in-out; /* Transition douce pour le changement de couleur */
+}
+
+circle:hover {
+  fill: #ffcc00; /* Couleur légèrement changée au survol */
+}
+

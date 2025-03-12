@@ -1,0 +1,97 @@
+{
+  "name": "Root",
+  "children": [
+    {
+      "name": "Privé",
+      "description": "Secteur privé dans le domaine de la cybersécurité, incluant les entreprises de cybersécurité et autres acteurs économiques.",
+      "children": [
+        {
+          "name": "Entreprises de cybersécurité",
+          "description": "Entreprises spécialisées dans la cybersécurité, qui fournissent des logiciels et des services spécialisés.",
+          "children": [
+            {
+              "name": "Éditeurs de logiciels de cybersécurité",
+              "value": 120,
+              "label": "Logiciels",
+              "tags": ["Sécurité", "Antivirus", "Firewall"],
+              "description": "Entreprises créant des logiciels de sécurité, tels que des antivirus et des pare-feux."
+            },
+            {
+              "name": "Fournisseurs de services de cybersécurité managés (MSSP)",
+              "value": 90,
+              "label": "Services managés",
+              "tags": ["MSSP", "Sécurisation", "Cloud"],
+              "description": "Fournisseurs de services gérés en cybersécurité, offrant des solutions de sécurisation et de gestion dans le cloud."
+            }
+          ]
+        },
+        {
+          "name": "Autres entreprises",
+          "description": "Autres types d'entreprises intervenant dans le domaine de la cybersécurité, incluant les consultants et la formation.",
+          "children": [
+            {
+              "name": "Consultants en cybersécurité",
+              "value": 80,
+              "label": "Consulting",
+              "tags": ["Consulting", "Audit", "Cybersécurité"],
+              "description": "Consultants offrant des services d'audit et de conseils en cybersécurité."
+            },
+            {
+              "name": "Formation en cybersécurité",
+              "value": 60,
+              "label": "Formation",
+              "tags": ["Formation", "Éducation", "Cybersécurité"],
+              "description": "Organisations qui offrent des formations et des programmes éducatifs en cybersécurité."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Public",
+      "description": "Acteurs publics qui jouent un rôle clé dans la cybersécurité, incluant les gouvernements et les organisations publiques.",
+      "children": [
+        {
+          "name": "Gouvernement",
+          "description": "Institutions gouvernementales ayant un rôle important dans la régulation et la gestion de la cybersécurité.",
+          "children": [
+            {
+              "name": "ANSSI",
+              "value": 200,
+              "label": "Autorité nationale",
+              "tags": ["Gouvernement", "Cybersécurité", "ANSSI"],
+              "description": "L'Agence nationale de la sécurité des systèmes d'information (ANSSI), responsable de la cybersécurité en France."
+            },
+            {
+              "name": "CNIL",
+              "value": 120,
+              "label": "Protection des données",
+              "tags": ["Données", "Confidentialité", "CNIL"],
+              "description": "La Commission Nationale de l'Informatique et des Libertés (CNIL), responsable de la protection des données personnelles."
+            }
+          ]
+        },
+        {
+          "name": "Organisations publiques",
+          "description": "Organisations publiques dédiées à la gestion des incidents de cybersécurité et à la sensibilisation.",
+          "children": [
+            {
+              "name": "CERT-FR",
+              "value": 180,
+              "label": "Réponse aux incidents",
+              "tags": ["CERT", "Réponse aux incidents", "Cybersécurité"],
+              "description": "Le CERT-FR (Computer Emergency Response Team) qui gère les incidents de cybersécurité en France."
+            },
+            {
+              "name": "Cybermalveillance.gouv.fr",
+              "value": 120,
+              "label": "Sensibilisation",
+              "tags": ["Sensibilisation", "Cybermalveillance", "Aide"],
+              "description": "Plateforme de sensibilisation et d'assistance en cas de cybermalveillance."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
